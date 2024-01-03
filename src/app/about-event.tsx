@@ -7,7 +7,7 @@ const EVENT_INFO = [
   {
     title: "Cutting-Edge Insights!",
     description:
-      "Gain deep insights into the latest AI trends, developments, and applications that are reshaping industries worldwide. ",
+      "Gain deep insights into the experiences of Turkish professionals.",
     subTitle: "Presentation",
   },
   {
@@ -31,9 +31,8 @@ export function AboutEvent() {
         variant="lead"
         className="mt-2 lg:max-w-4xl mb-8 w-full text-center font-normal !text-gray-500"
       >
-        Welcome to the AI Conference 2023, where the future unfolds! Whether
-        you&apos;re a seasoned AI professional, a curious newcomer, or a
-        business leader looking to harness the power of AI, this conference is
+        Welcome to the Turkish Young Professionals Symposium, where the future unfolds! Whether
+        you&apos;re a seasoned professional or a student, this symposium is
         designed to inspire, educate, and connect.
       </Typography>
       <div className="mt-8 w-full grid grid-cols-1 md:grid-cols-2 gap-4 ">
@@ -44,7 +43,7 @@ export function AboutEvent() {
           <AboutCard
             title="Networking!"
             subTitle="Community"
-            description="Connect with industry leaders, AI experts, and fellow enthusiasts to build valuable professional relationships."
+            description="Connect with industry leaders, young professionals, and fellow students to build valuable professional relationships."
           />
         </div>
       </div>

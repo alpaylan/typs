@@ -4,12 +4,8 @@ import Image from "next/image";
 import { Typography } from "@material-tailwind/react";
 
 const SPONSORS = [
-  "coinbase",
-  "spotify",
-  "pinterest",
-  "google",
-  "amazon",
-  "netflix",
+  "agora1.jpg",
+  "atadc1.png",
 ];
 
 export function SponsoredBy() {
@@ -25,7 +21,7 @@ export function SponsoredBy() {
               width={256}
               height={256}
               key={key}
-              src={`/logos/logo-${logo}.svg`}
+              src={`/logos/${logo}`}
               alt={logo}
               className="w-40"
             />
